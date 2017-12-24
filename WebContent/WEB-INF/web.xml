@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+<servlet>
+<description></description>
+<display-name>AttributeListener</display-name>
+<servlet-name>AttributeListener</servlet-name>
+<servlet-class>com.pratik.servlet.AttributeListener</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>AttributeListenert</servlet-name>
+<url-pattern>/AttributeListener</url-pattern>
+</servlet-mapping>
+<listener>
+<listener-class>com.pratik.listener.MyRequestAttributeListener</listener-class>
+</listener>
+</web-app>
